@@ -76,6 +76,7 @@ public class Lotto implements Game{
          }
         }
         System.out.println("MATCHING NUMBERS :" + resultNumbers);
+        System.out.println("YOU HIT " + resultNumbers.size() + " TIME(S).");
         switch (resultNumbers.size()) {
             case 3:
                 System.out.println("NOT BAD, YOU WON 100$");
