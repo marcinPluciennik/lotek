@@ -1,5 +1,5 @@
 package com.company;
 
 public interface Game {
-    String play();
+    void play();
 }

@@ -14,8 +14,11 @@ public class Lotek implements Game{
     List<Integer> computerNumbers = new ArrayList<>();
 
     @Override
-    public String play() {
-        return null;
+    public void play() {
+        giveUserNumbers();
+        showUserNumbers();
+        showComputerNumbers();
+        showResult();
     }
 
     public void giveUserNumbers(){
