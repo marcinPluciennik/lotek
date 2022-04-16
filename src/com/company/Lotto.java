@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class Lotek implements Game{
+public class Lotto implements Game{
 
     private final int LIMIT_OF_NUMBERS = 6;
     private final int START_NUMBER = 1;
@@ -23,7 +23,7 @@ public class Lotek implements Game{
 
     public void giveUserNumbers(){
         int userNumber;
-        System.out.println("LET'S PLAY -> LOTEK");
+        System.out.println("LET'S PLAY -> LOTTO");
         for (int i = 1; i <= LIMIT_OF_NUMBERS; i++) {
             boolean isNumberNotOK = true;
             do {
